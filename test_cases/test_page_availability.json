@@ -1,5 +1,3 @@
 [
-
-  {"command": "ping -c 6 yandex.ru", "expected_response": "6 packets transmitted, 6 received, 0% packet loss"},
   {"command": "curl -Is https://yandex.ru | head -1","expected_response": "HTTP/2 200"}
 ]
