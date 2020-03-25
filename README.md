@@ -17,7 +17,7 @@ See [Docker installation guide](https://docs.docker.com/install/linux/docker-ce/
     $ mkdir -p tmp/ci_artifacts
 ### Run tests
 
-    $ sudo docker -v $(pwd)/tmp/:/tests/tmp run -it test_task python3.7 -m pytest --junit-xml=tmp/ci_artifacts/junit.xml -m functional
+    $ sudo docker run -v $(pwd)/tmp/:/tests/tmp -it test_task python3.7 -m pytest --junit-xml=tmp/ci_artifacts/junit.xml -m functional
 
 # Run tests locally
 ### Initialisation
