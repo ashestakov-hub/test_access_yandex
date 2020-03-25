@@ -1,0 +1,5 @@
+[
+
+  {"command": "openssl s_client -connect yandex.ru:443", "expected_response": "HTTP/1.1 200 Ok"},
+  {"command": "nc yandex.ru 443","expected_response": "HTTP/1.1 200 Ok"}
+]

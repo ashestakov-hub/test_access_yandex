@@ -1,7 +1,0 @@
-{"test_data": {
-  "test_atc1_2": {"expected_response": "6 packets transmitted, 6 received, 0% packet loss"},
-  "test_atc1_3": {"expected_response": "HTTP/2 200"},
-  "test_atc1_4": {"expected_response": "HTTP/1.1 200"},
-  "test_atc1_6": {"expected_response": "HTTP/1.1 200"},
-  "test_atc2_1": {"login": "testatc2", "passwd":  "mitho3-vohroH-futbor"}
-}}
